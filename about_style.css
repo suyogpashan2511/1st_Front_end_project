@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	height: auto;
+	width: 100%;
+	float: left;
+}
+/*menu start*/
+.menu{
+	height: 100px;
+	width: 100%;
+	float: left;
+	background-color: #150921;
+}
+.menu_logo{
+	height: 100%;
+	width: 30%;
+	float: left;
+}
+.menu_logo img{
+	height: 70px;
+	margin-top: 20px;
+	margin-left: 50px;
+	text-align: center;
+}
+.menu_option{
+	height: 100%;
+	width: 40%;
+	float: left;
+}
+.menu_option ul{
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+.menu_option ul li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35px;
+	font-size: 20px;
+}
+.menu_option ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu_option ul .active a{
+	color: orange;
+}
+.menu_option ul a:hover{
+	color: orange;
+}
+.menu_option button{
+	height: 50px;
+	width: 50px;
+	border: 1px solid blue;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	background-image: linear-gradient(to right,purple,#b520a2,#b520a2);
+	display: none;
+}
+.menu_contact{
+	height: 100%;
+	width: 30%;
+	float: left;
+}
+.menu_contact p{
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+.menu_contact p{
+	font-size: 20px;
+	margin-top: 35px;
+	margin-left: 20px;
+	color: white;
+}
+.menu_contact span{
+	color: orange;
+}
+@media(max-width: 667px){
+	.menu_logo{
+		width: 50%;
+	}
+	.menu_option ul{
+		display: none;
+	}
+	.menu_option{
+		width: 50%;
+		text-align: right;
+	}
+	.menu_option button{
+		display: inline-block;
+		margin-top: 30px;
+		margin-right: 20px;
+	}
+	.menu_contact{
+		display: none;
+	}
+
+}
+
+/*menu end*/
+
+.about{
+	height: 800px;
+	width: 100%;
+	float: left;
+	background-color: red;	
+}
+.about_main{
+	height: 100%;
+	width: 90%;
+	float: left;
+	background-color: yellow;
+	margin: 5%;
+}
+.about_contect{
+	height: 100%;
+	width: 50%;
+	float: left;
+	background-color: blue;
+}
+.about_contect h1{
+	font-size: 20px;
+	color: white;
+	margin-left: 80px;
+}
+.about_contect h2{
+	font-size: 60px;
+	color: white;
+}
+.about_contect p{
+	color: white;
+	font-size: 18px;
+}
+.about_contect ul{
+	margin-top: 20px;
+	color: white;
+	list-style-type: none;
+}
+
+.about_contect ul{
+	margin-top: 30px;
+	font-size: 30px;
+}
+.about_contect ul a{
+	text-decoration: none;
+	color: white;
+}
+.about_contect ul i{
+	float: left;
+	color: orange;
+	margin-right: 20px;
+
+}
+
+.about_img{
+	height: 100%;
+	width: 50%;
+	float: left;
+	background-color: green;
+}
